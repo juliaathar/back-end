@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end activity\activity-4\bin\Debug\net7.0\activity-4.exe
+C:\Users\47447272809\Desktop\back-end activity\activity-4\bin\Debug\net7.0\activity-4.deps.json
+C:\Users\47447272809\Desktop\back-end activity\activity-4\bin\Debug\net7.0\activity-4.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end activity\activity-4\bin\Debug\net7.0\activity-4.dll
+C:\Users\47447272809\Desktop\back-end activity\activity-4\bin\Debug\net7.0\activity-4.pdb
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\activity-4.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\activity-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\activity-4.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\activity-4.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\activity-4.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\activity-4.dll
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\refint\activity-4.dll
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\activity-4.pdb
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\activity-4.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end activity\activity-4\obj\Debug\net7.0\ref\activity-4.dll

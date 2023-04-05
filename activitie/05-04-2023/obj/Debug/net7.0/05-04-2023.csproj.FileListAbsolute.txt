@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\05-04-2023.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\05-04-2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\05-04-2023.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\05-04-2023.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\05-04-2023.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\bin\Debug\net7.0\05-04-2023.exe
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\bin\Debug\net7.0\05-04-2023.deps.json
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\bin\Debug\net7.0\05-04-2023.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\bin\Debug\net7.0\05-04-2023.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\bin\Debug\net7.0\05-04-2023.pdb
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\05-04-2023.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\refint\05-04-2023.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\05-04-2023.pdb
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\05-04-2023.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\obj\Debug\net7.0\ref\05-04-2023.dll
