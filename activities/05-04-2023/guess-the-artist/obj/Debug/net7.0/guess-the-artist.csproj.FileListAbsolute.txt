@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\bin\Debug\net7.0\guess-the-artist.exe
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\bin\Debug\net7.0\guess-the-artist.deps.json
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\bin\Debug\net7.0\guess-the-artist.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\bin\Debug\net7.0\guess-the-artist.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\bin\Debug\net7.0\guess-the-artist.pdb
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\guess-the-artist.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\guess-the-artist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\guess-the-artist.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\guess-the-artist.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\guess-the-artist.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\guess-the-artist.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\refint\guess-the-artist.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\guess-the-artist.pdb
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\guess-the-artist.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-04-2023\guess-the-artist\obj\Debug\net7.0\ref\guess-the-artist.dll

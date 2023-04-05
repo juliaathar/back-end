@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "guess-the-artist/1.0.0": {
+        "runtime": {
+          "guess-the-artist.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "guess-the-artist/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
