@@ -18,45 +18,50 @@
 
 Console.WriteLine($"Será feita uma pesquisa para saber o feedback de um produto.");
 
-int sim = 0, nao = 0, mulherSim = 0, homemNao = 0, homem = 0;
+int sim = 0, nao = 0, femininosim = 0, masculinonao = 0, masculino = 0;
 
-for (int i = 1; i <= 10; i++)
+for (int i = 1; i <= 3; i++)
 {
-    Console.WriteLine(@$"Agora diga seu sexo
-    M- mulher
-    H- homem");
-    char sex = char.Parse(Console.ReadLine().ToUpper());
+    Console.WriteLine(@$"Informe seu sexo:
+    m - mulher
+    h - homem");
+    char sexo = char.Parse(Console.ReadLine().ToLower());
 
     Console.WriteLine(@$"Sua opinião sobre o produto é positiva?
-    S- sim
-    N- não");
-    char opiniao = char.Parse(Console.ReadLine().ToUpper());
+    s - sim
+    n - não");
+    char opiniao = char.Parse(Console.ReadLine().ToLower());
 
 
-    if (sex == 'F' && opiniao == 'S')
+    if (sexo == 'f' && opiniao == 's')
     {
-        mulherSim++;
+        femininosim++;
     }
 
-    else if (sex == 'M' && opiniao == 'N')
+    else if (sexo == 'm' && opiniao == 'n')
     {
-        homemNao++;
+        masculinonao++;
     }
 
-    else if (sex == 'M')
+    else if (sexo == 'm')
     {
-        homem++;
+        masculino++;
     }
 
-    if (opiniao == 'S')
+    if (opiniao == 's')
     {
         sim++;
     }
 
-    else if (opiniao == 'N')
+    else if (opiniao == 'n')
     {
         nao++;
     }
 }
 
-Console.WriteLine($"{sim} pessoas responderam sim, {nao} pessoas responderam nao, {mulherSim} mulheres que responderam sim, {homemNao} responderam nao, {homem} homens participaram.");
+int total = sim + nao;
+
+float porcentagem = (float) Math.Round((float) masculinonao/total, 2) * 100;
+
+
+Console.WriteLine($"{sim} pessoas responderam sim, {nao} pessoas responderam nao, {femininosim} mulheres que responderam sim, {porcentagem} responderam nao, {masculino} homens participaram.");
