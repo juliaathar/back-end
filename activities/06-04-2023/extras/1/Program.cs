@@ -20,7 +20,7 @@ Console.WriteLine($"Será feita uma pesquisa para saber o feedback de um produto
 
 int sim = 0, nao = 0, femininosim = 0, masculinonao = 0, masculino = 0;
 
-for (int i = 1; i <= 3; i++)
+for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine(@$"Informe seu sexo:
     m - mulher
