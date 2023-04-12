@@ -2,7 +2,7 @@
 
 // exemplo:
 // nome: carlos
-// idade: 36 anos
+// idade: 36 anos   
 
 string[] names = new string[5];
 int[] ages = new int[5];
@@ -20,7 +20,8 @@ for (int i = 0; i < 5; i++)
 
 for (int i = 0; i < 5; i++)
 {
-    Console.WriteLine(@$"{i})");
+    Console.ResetColor();
+    Console.WriteLine(@$"{i + 1})");
 
     Console.ForegroundColor = ConsoleColor.Blue;
     Console.WriteLine($"Nome:{names[i]}");
