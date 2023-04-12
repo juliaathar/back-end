@@ -13,19 +13,19 @@ for (int i = 0; i < 5; i++)
 {
     Console.WriteLine($"Digite o nome da {i + 1}º pessoa");
     names[i] = Console.ReadLine();
-    Console.ForegroundColor = ConsoleColor.Blue;
 
-    Console.ResetColor();
     Console.WriteLine($"Digite a idade da {i + 1}º pessoa");
     ages[i] = int.Parse(Console.ReadLine());
-    Console.ForegroundColor = ConsoleColor.Green;
-
-    Console.ResetColor();
 }
 
 for (int i = 0; i < 5; i++)
 {
-    Console.WriteLine(@$"{i}) 
-    Nome:{names[i]}
-    Idade: {ages[i]}");
+    Console.WriteLine(@$"{i})");
+
+    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine($"Nome:{names[i]}");
+
+    Console.ResetColor();
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"Idade: {ages[i]}");
 }
