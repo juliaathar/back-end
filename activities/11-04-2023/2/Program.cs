@@ -28,5 +28,5 @@ for (int i = 0; i < 5; i++)
 
     Console.ResetColor();
     Console.ForegroundColor = ConsoleColor.Green;
-    Console.WriteLine($"Idade: {ages[i]}");
+    Console.WriteLine($"Idade: {ages[i]} anos");
 }
