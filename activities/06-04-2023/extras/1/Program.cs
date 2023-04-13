@@ -18,7 +18,7 @@
 
 Console.WriteLine($"Será feita uma pesquisa para saber o feedback de um produto.");
 
-int sim = 0, nao = 0, femininosim = 0, masculinonao = 0, masculino = 0;
+int sim = 0, nao = 0, femininoSim = 0, masculinoNao = 0, masculino = 0;
 
 for (int i = 1; i <= 10; i++)
 {
@@ -35,12 +35,12 @@ for (int i = 1; i <= 10; i++)
 
     if (sexo == 'f' && opiniao == 's')
     {
-        femininosim++;
+        femininoSim++;
     }
 
     else if (sexo == 'm' && opiniao == 'n')
     {
-        masculinonao++;
+        masculinoNao++;
     }
 
     else if (sexo == 'm')
@@ -61,7 +61,7 @@ for (int i = 1; i <= 10; i++)
 
 int total = sim + nao;
 
-float porcentagem = (float) Math.Round((float) masculinonao/total, 2) * 100;
+float porcentagem = (float) Math.Round((float) masculinoNao/total, 2) * 100;
 
 
-Console.WriteLine($"{sim} pessoas responderam sim, {nao} pessoas responderam nao, {femininosim} mulheres que responderam sim, {porcentagem} responderam nao, {masculino} homens participaram.");
+Console.WriteLine($"{sim} pessoas responderam sim, {nao} pessoas responderam nao, {femininoSim} mulheres que responderam sim, {porcentagem} responderam nao, {masculino} homens participaram.");

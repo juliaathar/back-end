@@ -5,8 +5,8 @@ int num1 = 1;
 int num2 = 1;
 do
 {
-    Console.WriteLine($"{num1} ainda é abaixo de 500");
-    Console.WriteLine($"{num2} ainda é abaixo de 500");
+    Console.WriteLine($"{num1} é abaixo de 500");
+    Console.WriteLine($"{num2} é abaixo de 500");
     num1 = num1 + num2;
     num2 = num2 + num1;
 } while (num2 < 500 || num1 < 500);
