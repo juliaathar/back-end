@@ -9,11 +9,36 @@
 Console.WriteLine($"Digite o nome do produto:");
 string nome = Console.ReadLine();
 
-Console.WriteLine($"Qual foi a quantidade de {nome} que será comprada?");
+Console.WriteLine($"Qual a quantidade de {nome} que será comprada?");
 int quantidade = int.Parse(Console.ReadLine());
 
 Console.WriteLine($"Qual o valor do item?");
 float valor = float.Parse(Console.ReadLine());
 
-float preco = quantidade*valor;
+float preco = quantidade * valor;
 
+static float CalculoDesconto(float quantidade, float porcentagem)
+{
+    return ((porcentagem / 100 * quantidade));
+}
+
+if (quantidade <= 5)
+{
+    float desconto = CalculoDesconto(quantidade, 2);
+    Console.WriteLine($"Sua compra ficou em R${preco}, porém, com o nosso desconto de R${desconto} sua compra ficará em R${preco - desconto}");
+}
+else if (quantidade > 5 && quantidade <= 10)
+{
+    float desconto = CalculoDesconto(quantidade, 3);
+    Console.WriteLine($"Sua compra ficou em R${preco}, porém, com o nosso desconto de R${desconto} sua compra ficará em R${preco - desconto}");
+}
+else if (quantidade > 10)
+{
+    float desconto = CalculoDesconto(quantidade, 5);
+    Console.WriteLine($"Sua compra ficou em R${preco}, porém, com o nosso desconto de R${desconto} sua compra ficará em R${preco - desconto}");
+}
+else
+{
+    Console.WriteLine($"Não foi possível calcular. Por favor informw os dados corretamente.");
+    
+}
