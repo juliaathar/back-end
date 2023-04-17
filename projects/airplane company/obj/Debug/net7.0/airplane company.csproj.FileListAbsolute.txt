@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\airplane company.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\airplane company.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\airplane company.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\airplane company.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\airplane company.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\bin\Debug\net7.0\airplane company.exe
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\bin\Debug\net7.0\airplane company.deps.json
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\bin\Debug\net7.0\airplane company.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\bin\Debug\net7.0\airplane company.dll
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\bin\Debug\net7.0\airplane company.pdb
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\airplane company.dll
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\refint\airplane company.dll
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\airplane company.pdb
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\airplane company.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\projects\airplane company\obj\Debug\net7.0\ref\airplane company.dll
