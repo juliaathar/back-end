@@ -1,14 +1,25 @@
 ﻿using poo_class;
 
-Personagem tony = new Personagem();
+Personagem p1 = new Personagem();
 
-Console.WriteLine(tony.nome);
-Console.WriteLine(tony.idade);
-Console.WriteLine(tony.armadura);
-Console.WriteLine(tony.IA);
+Console.WriteLine($"Digite o nome do personagem");
+p1.nome = Console.ReadLine();
 
-tony.Atacar();
+Console.WriteLine($"Digite a idade do personagem");
+p1.idade = int.Parse (Console.ReadLine());
 
-Console.WriteLine(tony.Defender());
+Console.WriteLine($"Digite o nome da armadura do personagem");
+p1.armadura = Console.ReadLine();
 
-tony.RestaurarArmadura();
+Console.WriteLine($"Digite o nome da IA do personagem");
+p1.IA = Console.ReadLine();
+
+Console.WriteLine(@$"
+{p1.nome}
+{p1.idade}
+{p1.armadura}
+{p1.IA}");
+
+p1.Atacar();
+Console.WriteLine(p1.Defender());
+p1.RestaurarArmadura();

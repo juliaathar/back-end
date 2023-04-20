@@ -2,10 +2,10 @@ namespace poo_class
 {
     public class Personagem
     {
-        public string nome = "Tony Stark";
-        public int idade = 35;
-        public string armadura = "Bleeding Edge";
-        public string IA = "Jarvis";
+        public string nome;
+        public int idade;
+        public string armadura;
+        public string IA;
 
         public void Atacar()
         {
