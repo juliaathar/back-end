@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\classes\poo class\bin\Debug\net7.0\poo class.exe
+C:\Users\47447272809\Desktop\back-end\classes\poo class\bin\Debug\net7.0\poo class.deps.json
+C:\Users\47447272809\Desktop\back-end\classes\poo class\bin\Debug\net7.0\poo class.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\classes\poo class\bin\Debug\net7.0\poo class.dll
+C:\Users\47447272809\Desktop\back-end\classes\poo class\bin\Debug\net7.0\poo class.pdb
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\poo class.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\poo class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\poo class.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\poo class.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\poo class.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\poo class.dll
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\refint\poo class.dll
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\poo class.pdb
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\poo class.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\classes\poo class\obj\Debug\net7.0\ref\poo class.dll
