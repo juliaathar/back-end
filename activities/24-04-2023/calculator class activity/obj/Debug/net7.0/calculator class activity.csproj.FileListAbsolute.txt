@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\calculator class activity.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\calculator class activity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\calculator class activity.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\calculator class activity.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\calculator class activity.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\bin\Debug\net7.0\calculator class activity.exe
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\bin\Debug\net7.0\calculator class activity.deps.json
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\bin\Debug\net7.0\calculator class activity.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\bin\Debug\net7.0\calculator class activity.dll
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\bin\Debug\net7.0\calculator class activity.pdb
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\calculator class activity.dll
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\refint\calculator class activity.dll
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\calculator class activity.pdb
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\calculator class activity.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\calculator class activity\obj\Debug\net7.0\ref\calculator class activity.dll
