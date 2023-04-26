@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\celphone.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\celphone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\celphone.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\celphone.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\celphone.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\bin\Debug\net7.0\celphone.exe
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\bin\Debug\net7.0\celphone.deps.json
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\bin\Debug\net7.0\celphone.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\bin\Debug\net7.0\celphone.dll
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\bin\Debug\net7.0\celphone.pdb
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\celphone.dll
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\refint\celphone.dll
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\celphone.pdb
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\celphone.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\activities\24-04-2023\celphone\obj\Debug\net7.0\ref\celphone.dll
