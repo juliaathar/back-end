@@ -9,7 +9,7 @@ namespace poo_class
 
         public void Atacar()
         {
-            Console.WriteLine($"O {nome} atacou!");
+            Console.WriteLine($"{nome} atacou!");
         }
         public string Defender()
         {
@@ -17,7 +17,7 @@ namespace poo_class
         }
         public void RestaurarArmadura()
         {
-            Console.WriteLine($"O {nome} está restaurando sua armadura...");
+            Console.WriteLine($"{nome} está restaurando sua armadura...");
         }
     }
 }

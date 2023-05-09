@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47447272809\\Desktop\\back-end\\classes\\classes.csproj",
-      "projectName": "classes",
-      "projectPath": "C:\\Users\\47447272809\\Desktop\\back-end\\classes\\classes.csproj",
+      "projectUniqueName": "C:\\Users\\47447272809\\Desktop\\back-end\\activities\\05-05-2023\\elevator\\elevator.csproj",
+      "projectName": "elevator",
+      "projectPath": "C:\\Users\\47447272809\\Desktop\\back-end\\activities\\05-05-2023\\elevator\\elevator.csproj",
       "packagesPath": "C:\\Users\\47447272809\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47447272809\\Desktop\\back-end\\classes\\obj\\",
+      "outputPath": "C:\\Users\\47447272809\\Desktop\\back-end\\activities\\05-05-2023\\elevator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\47447272809\\AppData\\Roaming\\NuGet\\NuGet.Config",

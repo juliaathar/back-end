@@ -15,88 +15,125 @@
 
 // colher dados: nome, origem, destino, data de voo (repetir 5 vezes)
 
-
-
-static void CadastrarPassagem()
+class Program
 {
+    static List<string[]> passagens = new List<string[]>();
 
-    for (int quantidadeUsuario = 0; quantidadeUsuario < 5; quantidadeUsuario++)
+    static void Main()
     {
-
-
-        Console.WriteLine($"Digite seu nome:");
+        Console.WriteLine($"Bem vindo ao nosso programa de compania aerea! Nos informe seu nome:");
         string nome = Console.ReadLine();
 
-        Console.WriteLine($"{nome}, agora digite sua origem:");
-        string origem = Console.ReadLine();
+        Console.WriteLine($"Para acessar nosso sistema digite sua senha:");
+        string senha = Console.ReadLine();
 
-        Console.WriteLine($"Agora informe para onde quer ir:");
-        string destino = Console.ReadLine();
+        bool senhaValida = ValidarSenha(senha);
 
-        Console.WriteLine($"Qual a data de voo desejada?");
-        string data = Console.ReadLine();
+        if (senhaValida)
+        {
+            Console.WriteLine($"{nome}, seu login foi efetuado com sucesso!");
 
-        Console.WriteLine($"Ok, {nome}, sua viagem esta marcada para {data}");
-        Console.WriteLine($"Proximo usuario a ser cadastrado:");
-    }
-        string[] usuarios = new string[5];
-}
-
-
-
-Console.WriteLine($"Bem vindo ao nosso programa de compania aerea! Nos informe seu nome:");
-string nome = Console.ReadLine();
-
-Console.WriteLine($"Para acessar nosso sistema digite sua senha:");
-string senha = Console.ReadLine();
-
-bool ValidarSenha(string senha)
-{
-    string senhaDefinida = "123456";
-
-    return senha == senhaDefinida;
-}
-
-bool senhaValida = ValidarSenha(senha);
-
-if (senhaValida)
-{
-    Console.WriteLine($"{nome}, seu login foi efetuado com sucesso!");
-
-    Console.WriteLine(@$"Agora escolha o que deseja fazer no menu:
-    1- Cadastrar passagem
-    2- Listar Passagens
-    0- Sair");
-    char acao = char.Parse(Console.ReadLine());
-
-    switch (acao)
-    {
-        case '1':
-            CadastrarPassagem();
-            break;
-
-        case '2':
-            Console.WriteLine($"");
-
-            break;
-
-        default:
-            break;
+            MostrarMenu();
+        }
+        else
+        {
+            Console.WriteLine($"Falha ao logar. Tente novamente.");
+        }
     }
 
-}
-else
-{
-    Console.WriteLine($"Falha ao logar. Tente novamente.");
-}
-
-
-
-
-static void ListarPassagem(IEnumerable<object> usuarios)
-{
-    foreach (var usuario in usuarios)
+    static bool ValidarSenha(string senha)
     {
+        string senhaDefinida = "123456";
+        return senha == senhaDefinida;
+    }
 
+    static void MostrarMenu()
+    {
+        Console.WriteLine(@$"Agora escolha o que deseja fazer no menu:
+1- Cadastrar passagem
+2- Listar Passagens
+0- Sair");
+        char acao = char.Parse(Console.ReadLine());
+
+        switch (acao)
+        {
+            case '1':
+                CadastrarPassagem();
+                break;
+
+            case '2':
+                ListarPassagens();
+                break;
+
+            case '0':
+                Console.WriteLine("Saindo...");
+                break;
+
+            default:
+                Console.WriteLine("Opção inválida!");
+                MostrarMenu();
+                break;
+        }
+    }
+
+    static void CadastrarPassagem()
+    {
+        List<string[]> passagens = new List<string[]>();
+
+        for (int quantidadeUsuario = 0; quantidadeUsuario < 5; quantidadeUsuario++)
+        {
+
+            Console.WriteLine($"Digite seu nome:");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine($"{nome}, agora digite sua origem:");
+            string origem = Console.ReadLine();
+
+            Console.WriteLine($"Agora informe para onde quer ir:");
+            string destino = Console.ReadLine();
+
+            Console.WriteLine($"Qual a data de voo desejada?");
+            string data = Console.ReadLine();
+
+            Console.WriteLine($"Ok, {nome}, sua viagem esta marcada para {data}");
+
+            string[] dadosPassagem = { nome, origem, destino, data };
+            passagens.Add(dadosPassagem);
+
+        }
+        VoltarAoMenu();
+    }
+
+    static void ListarPassagens()
+    {
+        if (passagens.Count == 0)
+        {
+            Console.WriteLine("Não há passagens cadastradas!");
+        }
+        else
+        {
+            Console.WriteLine("Passagens cadastradas:");
+
+            for (int unidadePassagem = 0; unidadePassagem < passagens.Count; unidadePassagem++)
+            {
+                string[] dadosPassagem = passagens[unidadePassagem];
+
+                Console.WriteLine($"Passagem {unidadePassagem + 1}:");
+
+                Console.WriteLine($"Nome do passageiro: {dadosPassagem[0]}");
+                Console.WriteLine($"Origem: {dadosPassagem[1]}");
+                Console.WriteLine($"Destino: {dadosPassagem[2]}");
+                Console.WriteLine($"Data marcada para o voo: {dadosPassagem[3]}");
+            }
+        }
+
+        VoltarAoMenu();
+    }
+
+    static void VoltarAoMenu()
+    {
+        Console.WriteLine(@$"Pressione qualquer tecla para voltar ao menu...");
+        Console.ReadKey();
+        MostrarMenu();
     }
 }

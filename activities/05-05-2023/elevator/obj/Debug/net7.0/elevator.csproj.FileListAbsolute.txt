@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\bin\Debug\net7.0\elevator.exe
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\bin\Debug\net7.0\elevator.deps.json
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\bin\Debug\net7.0\elevator.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\bin\Debug\net7.0\elevator.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\bin\Debug\net7.0\elevator.pdb
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\elevator.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\elevator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\elevator.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\elevator.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\elevator.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\elevator.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\refint\elevator.dll
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\elevator.pdb
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\elevator.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\activities\05-05-2023\elevator\obj\Debug\net7.0\ref\elevator.dll

@@ -79,5 +79,3 @@ else
     Console.WriteLine($"Tente novamente.");
     ligarResposta = Console.ReadLine().ToLower();
 }
-
-
