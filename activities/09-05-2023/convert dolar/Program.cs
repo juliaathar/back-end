@@ -34,6 +34,7 @@ do
         ConversorMoedas.RealToDolar();
             break;
         default:
+        Console.WriteLine($"Sua escolha não foi identificada");
             break;
     }
 

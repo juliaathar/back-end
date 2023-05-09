@@ -10,7 +10,7 @@ namespace convert_dolar
             float dolar = float.Parse(Console.ReadLine());
 
             float real = ValorDolar * dolar;
-            Console.WriteLine($"Valor em reais {real}");
+            Console.WriteLine($"Valor em reais R${real}");
 
             return real;
 
@@ -21,9 +21,8 @@ namespace convert_dolar
             float real = float.Parse(Console.ReadLine());
 
             float dolar = real / ValorDolar;
-            Console.WriteLine($"Valor em reais {dolar}");
+            Console.WriteLine($"Valor em dólares ${dolar}");
             return dolar;
-
         }
 
     }
