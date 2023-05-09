@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace convert_dolar
 {
     public class ConversorMoedas
@@ -10,7 +12,7 @@ namespace convert_dolar
             float dolar = float.Parse(Console.ReadLine());
 
             float real = ValorDolar * dolar;
-            Console.WriteLine($"Valor em reais R${real}");
+            Console.WriteLine($"Valor em reais {real.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))}");
 
             return real;
 
@@ -21,7 +23,7 @@ namespace convert_dolar
             float real = float.Parse(Console.ReadLine());
 
             float dolar = real / ValorDolar;
-            Console.WriteLine($"Valor em dólares ${dolar}");
+            Console.WriteLine($"Valor em dólares {dolar.ToString("C", CultureInfo.CreateSpecificCulture("en-US"))}");
             return dolar;
         }
 
