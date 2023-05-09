@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\bin\Debug\net7.0\static-classes.exe
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\bin\Debug\net7.0\static-classes.deps.json
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\bin\Debug\net7.0\static-classes.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\bin\Debug\net7.0\static-classes.dll
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\bin\Debug\net7.0\static-classes.pdb
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\static-classes.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\static-classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\static-classes.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\static-classes.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\static-classes.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\static-classes.dll
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\refint\static-classes.dll
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\static-classes.pdb
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\static-classes.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\classes\static-classes\obj\Debug\net7.0\ref\static-classes.dll
