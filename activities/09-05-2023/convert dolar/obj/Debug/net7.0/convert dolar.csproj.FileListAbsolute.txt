@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\bin\Debug\net7.0\convert dolar.exe
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\bin\Debug\net7.0\convert dolar.deps.json
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\bin\Debug\net7.0\convert dolar.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\bin\Debug\net7.0\convert dolar.dll
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\bin\Debug\net7.0\convert dolar.pdb
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\convert dolar.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\convert dolar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\convert dolar.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\convert dolar.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\convert dolar.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\convert dolar.dll
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\refint\convert dolar.dll
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\convert dolar.pdb
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\convert dolar.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\activities\09-05-2023\convert dolar\obj\Debug\net7.0\ref\convert dolar.dll
