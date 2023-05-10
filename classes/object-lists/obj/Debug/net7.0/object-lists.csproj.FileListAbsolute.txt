@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\bin\Debug\net7.0\object-lists.exe
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\bin\Debug\net7.0\object-lists.deps.json
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\bin\Debug\net7.0\object-lists.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\bin\Debug\net7.0\object-lists.dll
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\bin\Debug\net7.0\object-lists.pdb
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\object-lists.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\object-lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\object-lists.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\object-lists.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\object-lists.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\object-lists.dll
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\refint\object-lists.dll
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\object-lists.pdb
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\object-lists.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\classes\object-lists\obj\Debug\net7.0\ref\object-lists.dll
