@@ -1,25 +1,69 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace products_project
 {
     public class Login
     {
-        private bool Logado {get; set;}
+        public bool Logado { get; set; }
         public Login()
         {
+            Menu();
+        }
+
+        Usuario usuario;
+        public void Logar()
+        {
+            Console.WriteLine($"Insira seu email");
+            string email = Console.ReadLine();
+            usuario.ListaDeUsuarios.Find(x => x.Email == email);
+
+            Console.WriteLine($"Insira sua senha");
+            string senha = Console.ReadLine();
+            usuario.ListaDeUsuarios.Find(x => x.Senha == senha);
+
+
+            if (usuario.Email == email && usuario.Senha == senha)
+            {
+                this.Logado = true;
+                Console.WriteLine($"Login efetuado com sucesso");
+            }
+            else
+            {
+                this.Logado = false;
+                Console.WriteLine($"Falha ao logar");
+            }
 
         }
 
-        public string Logar(Usuario)
+        public void Deslogar(Usuario usuario)
         {
 
         }
 
-        public string Deslogar(Usuario)
+        public void Menu()
         {
+            Console.WriteLine(@$"
+ ╔═══════════════════════╗
+ ║     Bem-vindo(a)!     ║
+ ║   Escolha sua ação:   ║
+ ║                       ║
+ ║  1- Cadastrar Produto ║
+ ║  2- Listar Produto    ║
+ ║  3- Remover Produto   ║
+ ║  4- Cadastrar Marca   ║
+ ║  5- Listar Marca      ║
+ ║  6- Remover Marca     ║
+ ╚═══════════════════════╝");
+            char opcao = char.Parse(Console.ReadLine());
+
+
+            switch (opcao)
+            {
+                case '2':
+                Logar();
+                    break;
+                default:
+                    break;
+            }
+
 
         }
     }

@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace products_project
 {
     public class Produto
@@ -15,14 +10,19 @@ namespace products_project
         private Usuario CadastradoPor { get; set; }
         private List<string> ListaDeProdutos { get; set; }
 
-        public string Cadastrar()
+        public void Cadastrar(Produto novoProduto)
         {
-            Produto novoProduto = new Produto();
-            ListaDeProdutos.Add(novoProduto);
+
         }
 
-        public List<Produto> Listar()
+         public List<Produto> Listar()
+         {
+            
+         }
+
+        public void Deletar (Produto _produto)
         {
-        }
+
+        } 
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\products project.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\products project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\products project.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\products project.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\products project.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\projects\products project\bin\Debug\net7.0\products project.exe
+C:\Users\47447272809\Desktop\back-end\projects\products project\bin\Debug\net7.0\products project.deps.json
+C:\Users\47447272809\Desktop\back-end\projects\products project\bin\Debug\net7.0\products project.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\projects\products project\bin\Debug\net7.0\products project.dll
+C:\Users\47447272809\Desktop\back-end\projects\products project\bin\Debug\net7.0\products project.pdb
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\products project.dll
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\refint\products project.dll
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\products project.pdb
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\products project.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\projects\products project\obj\Debug\net7.0\ref\products project.dll

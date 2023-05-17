@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace products_project
 {
     public class Marca
@@ -12,6 +7,9 @@ namespace products_project
         private int Codigo { get; set; }
         private DateTime DataCadastro = new DateTime();
 
-        private     
+         private Marca Cadastrar (Marca novaMarca)
+         {
+
+         }   
     }
 }
