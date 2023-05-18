@@ -37,7 +37,7 @@ namespace products_project
 
             Marca.ProcurarMarcas(codigoMarca);
             ObjetoUsuario.Nome = CadastradoPor.Nome;
-            
+
             ListaDeProdutos.Add(new Produto(Codigo, NomeProduto, Preco));
 
             return NomeProduto;
@@ -48,7 +48,12 @@ namespace products_project
         {
             foreach (var produto in ListaDeProdutos)
             {
-                Console.WriteLine(NomeProduto);
+                Console.WriteLine(@$"
+                Codigo: {produto.Codigo}
+                Nome: {produto.NomeProduto}
+                Preco: {produto.Preco}
+                ");
+                
             }
             
             return ListaDeProdutos;
