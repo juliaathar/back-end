@@ -2,7 +2,7 @@ namespace products_project
 {
     public class Login
     {
-        public bool Logado { get; set; }
+        public bool Logado { get; private set; }
         public Login()
         {
             Menu();
@@ -33,7 +33,7 @@ namespace products_project
 
         }
 
-        public void Deslogar(Usuario usuario)
+        public void Deslogar()
         {
 
         }
@@ -57,8 +57,7 @@ namespace products_project
 
             switch (opcao)
             {
-                case '2':
-                Logar();
+                case '1':
                     break;
                 default:
                     break;
