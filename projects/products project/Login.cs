@@ -11,25 +11,25 @@ namespace products_project
         Usuario usuario;
         public void Logar()
         {
-            Console.WriteLine($"Insira seu email");
-            string email = Console.ReadLine();
-            usuario.ListaDeUsuarios.Find(x => x.Email == email);
+            // Console.WriteLine($"Insira seu email");
+            // string email = Console.ReadLine();
+            // usuario.ListaDeUsuarios.Find(x => x.Email == email);
 
-            Console.WriteLine($"Insira sua senha");
-            string senha = Console.ReadLine();
-            usuario.ListaDeUsuarios.Find(x => x.Senha == senha);
+            // Console.WriteLine($"Insira sua senha");
+            // string senha = Console.ReadLine();
+            // usuario.ListaDeUsuarios.Find(x => x.Senha == senha);
 
 
-            if (usuario.Email == email && usuario.Senha == senha)
-            {
-                this.Logado = true;
-                Console.WriteLine($"Login efetuado com sucesso");
-            }
-            else
-            {
-                this.Logado = false;
-                Console.WriteLine($"Falha ao logar");
-            }
+            // if (usuario.Email == email && usuario.Senha == senha)
+            // {
+            //     this.Logado = true;
+            //     Console.WriteLine($"Login efetuado com sucesso");
+            // }
+            // else
+            // {
+            //     this.Logado = false;
+            //     Console.WriteLine($"Falha ao logar");
+            // }
 
         }
 

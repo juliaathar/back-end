@@ -3,57 +3,45 @@ namespace products_project
     public class Usuario
     {
         public int Codigo { get; private set; }
-        public string Nome { get; private set; }
+        public string Nome { get;  set; }
         public string Email { get; private set; }
         public string Senha { get; private set; }
-        public string DataCadastro { get; private set; }
-        public List<Usuario> ListaDeUsuarios { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        List<Usuario> ListaDeUsuario = new List<Usuario>();
 
         public Usuario()
+        { }
+        public Usuario(string email, string senha, string nome)
         {
-
+            Nome = nome;
+            Email = email;
+            Senha = senha;
         }
-
-        public void Cadastrar(int codigo, string nome, string email, string senha)
+        public string Cadastrar(string novoUsuario)
         {
+            Usuario usuario = new Usuario();
+
             Console.WriteLine($"Bem vindo ao seu cadastro!");
             Console.WriteLine($"Digite um codigo para seu usuario:");
-            Codigo = int.Parse(Console.ReadLine());
+            int codigo = int.Parse(Console.ReadLine());
             Console.WriteLine($"Digite seu nome:");
-            Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
             Console.WriteLine($"Digite seu email:");
-            Email = Console.ReadLine();
+            string email = Console.ReadLine();
             Console.WriteLine($"Defina uma senha:");
-            Senha = Console.ReadLine();
+            string senha = Console.ReadLine();
 
-            ListaDeUsuarios.Add(new Usuario(codigo, nome, email, senha));
+            ListaDeUsuario.Add(new Usuario(Email, Senha, Nome));
+
+            return novoUsuario;
         }
         public void Deletar(int codigo, string nome, string email, string senha)
         {
-            Console.WriteLine($"Qual o código do usuário a ser deletado?");
-            int codigoExcluir = int.Parse(Console.ReadLine());
-
-            int indice = ListaDeUsuarios.FindIndex(x => x.Codigo == codigoExcluir);
-
-            ListaDeUsuarios.RemoveAt(indice);
-            indice++;
-            ListaDeUsuarios.RemoveAt(indice);
-            indice++;
-            ListaDeUsuarios.RemoveAt(indice);
-            indice++;
-            ListaDeUsuarios.RemoveAt(indice);
-            indice++;
-        }
-
-        public Usuario ProcurarUsuario(string nome)
-        {
-            Usuario usuario = ListaDeUsuarios.Find((x => x.Nome == nome));
-            return usuario;
-        }
-
-        internal static void ProcurarUsuario(Usuario usuario)
-        {
-            throw new NotImplementedException();
+            codigo = 0;
+            nome = "";
+            email = "";
+            senha = "";
+            DataCadastro = DateTime.Parse("00-0000-0T00:00:00");
         }
     }
 }

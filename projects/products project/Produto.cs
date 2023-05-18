@@ -9,10 +9,15 @@ namespace products_project
         public Marca Marca { get; private set; }
         public Usuario usuario { get; private set; }
         public Usuario CadastradoPor { get; private set; }
-        public List<string> ListaDeProdutos { get; private set; }
+        List<Produto> ListaDeProdutos = new List<Produto>();
         Usuario ObjetoUsuario = new Usuario();
 
-
+        public Produto(int codigo, string nomeProduto, float preco)
+        {
+            Codigo = codigo;
+            NomeProduto = nomeProduto;
+            Preco = preco;
+        }
 
         public string Cadastrar(string novoProduto)
         {
@@ -26,25 +31,32 @@ namespace products_project
 
             Console.WriteLine($"Qual o preco do produto?");
             Preco = float.Parse(Console.ReadLine());
-            
+
             Console.WriteLine($"Qual o codigo da marca?");
             int codigoMarca = int.Parse(Console.ReadLine());
 
             Marca.ProcurarMarcas(codigoMarca);
-            CadastradoPor = ObjetoUsuario.ProcurarUsuario(ObjetoUsuario.Nome);
+            ObjetoUsuario.Nome = CadastradoPor.Nome;
+            
+            ListaDeProdutos.Add(new Produto(Codigo, NomeProduto, Preco));
 
-            return novoProduto;
+            return NomeProduto;
 
         }
 
-        //  public List<Produto> Listar()
-        //  {
+        public List<Produto> Listar()
+        {
+            foreach (var produto in ListaDeProdutos)
+            {
+                Console.WriteLine(NomeProduto);
+            }
             
-        //  }
+            return ListaDeProdutos;
+        }
 
-        public void Deletar ()
+        public void Deletar()
         {
 
-        } 
+        }
     }
 }
