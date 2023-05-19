@@ -2,7 +2,7 @@ namespace products_project
 {
     public class Login
     {
-        public bool Logado { get; private set; }
+        public bool Logado { get; set; }
         public Login()
         {
             Usuario usuario = new Usuario();
@@ -17,31 +17,38 @@ namespace products_project
             do
             {
                 Console.WriteLine(@$"
-            Escolha se deseja logar ou se cadastrar!
-            [1] Logar
+            Bem-vindo ao nosso programa de produtos
+            [1] Fazer Login
             [2] Cadastrar");
                 opcaoCadastro = char.Parse(Console.ReadLine());
 
                 switch (opcaoCadastro)
                 {
                     case '1':
-                        Console.WriteLine($"Insira seu email: ");
-                        string email = Console.ReadLine();
-
-                        Console.WriteLine($"Insira sua senha: ");
-                        string senha = Console.ReadLine();
-
-                        if (email == usuario.Email && senha == usuario.Senha)
+                        if (usuario.Email == null || usuario.Senha == null)
                         {
-                            this.Logado = true;
-                            Console.WriteLine($"Login efetuado com sucesso !");
+                            Console.WriteLine($"Não há nenhum usuário cadastrado no programa, tente fazer seu cadastro");
+                            usuario.Cadastrar();
                         }
                         else
                         {
-                            this.Logado = false;
-                            Console.WriteLine($"Falha ao logar !");
-                        }
+                            Console.WriteLine($"Insira seu email: ");
+                            string email = Console.ReadLine();
 
+                            Console.WriteLine($"Insira sua senha: ");
+                            string senha = Console.ReadLine();
+
+                            if (email == usuario.Email && senha == usuario.Senha)
+                            {
+                                Logado = true;
+                                Console.WriteLine($"Login efetuado com sucesso!");
+                            }
+                            else
+                            {
+                                Logado = false;
+                                Console.WriteLine($"Falha ao logar!");
+                            }
+                        }
                         if (Logado == true)
                         {
                             Menu();
@@ -52,7 +59,7 @@ namespace products_project
                         usuario.Cadastrar();
                         break;
                     default:
-                        Console.WriteLine($"Opcao invalida, Tente Novamente !");
+                        Console.WriteLine($"Opção inválida, tente novamente!");
                         opcaoCadastro = char.Parse(Console.ReadLine());
                         break;
                 }
@@ -67,7 +74,12 @@ namespace products_project
 
         public void Menu()
         {
-            Console.WriteLine(@$"
+            Produto produto = new Produto();
+            Marca marca = new Marca();
+
+            do
+            {
+                Console.WriteLine(@$"
  ╔═══════════════════════╗
  ║     Bem-vindo(a)!     ║
  ║   Escolha sua ação:   ║
@@ -80,17 +92,38 @@ namespace products_project
  ║  5- Listar Marca      ║
  ║  6- Remover Marca     ║
  ╚═══════════════════════╝");
-            char opcao = char.Parse(Console.ReadLine());
+                char opcao = char.Parse(Console.ReadLine());
 
 
-            switch (opcao)
-            {
-                case '1':
-                    break;
-                default:
-                    break;
-            }
+                switch (opcao)
+                {
+                    case '1':
+                        produto.Cadastrar();
+                        break;
+                    case '2':
+                        produto.Listar();
+                        break;
+                    case '3':
+                        produto.Deletar();
+                        break;
+                    case '4':
+                        marca.Cadastrar();
+                        break;
+                    case '5':
+                        marca.Listar();
+                        break;
+                    case '6':
+                        marca.Deletar();
+                        break;
 
+                    default:
+                        Console.WriteLine($"Opção inválida, tente novamente !");
+                        opcao = char.Parse(Console.ReadLine());
+                        break;
+                }
+
+
+            } while (true);
 
         }
     }

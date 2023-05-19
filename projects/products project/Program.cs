@@ -11,3 +11,5 @@
 // [ ] Na classe program.cs chamar apenas o construtor Login que vai gerar o menu e todas as outras opções.
 // Dica: crie os métodos e atributos primeiro, e só depois comece a implementar as ações nos métodos, isso vai gerar uma visão mais sistêmica de seu projeto.
 using products_project;
+Login app = new Login();
+

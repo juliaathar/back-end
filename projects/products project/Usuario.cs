@@ -2,11 +2,11 @@ namespace products_project
 {
     public class Usuario
     {
-        public int Codigo { get; private set; }
+        public int Codigo { get; set; }
         public string Nome { get; set; }
-        public string Email { get; private set; }
-        public string Senha { get; private set; }
-        public DateTime DataCadastro { get; private set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+        public DateTime DataCadastro { get; set; }
         List<Usuario> ListaDeUsuario = new List<Usuario>();
 
         public Usuario()
@@ -22,24 +22,26 @@ namespace products_project
             Usuario usuario = new Usuario();
 
             Console.WriteLine($"Bem vindo ao seu cadastro!");
-            Console.WriteLine($"Digite um codigo para seu usuario:");
-            int codigo = int.Parse(Console.ReadLine());
+
             Console.WriteLine($"Digite seu nome:");
-            string nome = Console.ReadLine();
+            Nome = Console.ReadLine();
+
             Console.WriteLine($"Digite seu email:");
-            string email = Console.ReadLine();
+            Email = Console.ReadLine();
+
             Console.WriteLine($"Defina uma senha:");
-            string senha = Console.ReadLine();
+            Senha = Console.ReadLine();
 
             ListaDeUsuario.Add(new Usuario(Email, Senha, Nome));
         }
-        public void Deletar(int codigo, string nome, string email, string senha)
+        public void Deletar()
         {
-            codigo = 0;
-            nome = "";
-            email = "";
-            senha = "";
-            DataCadastro = DateTime.Parse("00-0000-0T00:00:00");
+            Console.WriteLine($"Informe o email do usuário que deseja excluir:");
+            string usuarioExcluir = Console.ReadLine().ToUpper();
+
+            Usuario usuarioBuscado = ListaDeUsuario.Find(CadaUsuario => CadaUsuario.Email == usuarioExcluir);
+
+            ListaDeUsuario.Remove(usuarioBuscado);
         }
     }
 }

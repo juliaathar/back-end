@@ -2,59 +2,64 @@ namespace products_project
 {
     public class Marca
     {
-        public int Codigo { get; private set; }
-        public string NomeMarca { get; private set; }
-        public DateTime DataCadastro { get; private set; }
+        public int Codigo { get; set; }
+        public string NomeMarca { get; set; }
+        public DateTime DataCadastro { get; set; }
         List<Marca> ListaMarca = new List<Marca>();
 
+        public Marca()
+        { }
         public Marca(int Codigo, string NomeMarca)
         {
             this.Codigo = Codigo;
             this.NomeMarca = NomeMarca;
         }
 
-        public void Cadastrar()
+        public Marca Cadastrar()
         {
-            Console.Write(@$"
-            Cadastre sua marca!
-            Nome da marca:");
-            NomeMarca = Console.ReadLine();
+            Marca novaMarca = new Marca();
 
-            Console.Write($"Codigo da marca:");
-            Codigo = int.Parse(Console.ReadLine());
+            DataCadastro = DateTime.Now;
+            Console.Write($"Informe o codigo da marca:");
+            int codigo = int.Parse(Console.ReadLine());
 
-            ListaMarca.Add(new Marca(Codigo, NomeMarca));
+            novaMarca = ListaMarca.Find(x => x.Codigo == codigo);
+
+            if (novaMarca == null)
+            {
+                novaMarca = new Marca();
+                novaMarca.Codigo = codigo;
+                Console.Write($"Informe o nome da marca:");
+                novaMarca.NomeMarca = Console.ReadLine().ToUpper();
+
+                ListaMarca.Add(novaMarca);
+                return novaMarca;
+            }
+            else
+            {
+                Console.WriteLine($"A marca já existe! *{novaMarca.NomeMarca}*");
+                return novaMarca;   
+            }
+
         }
-
+        public List<Marca> Listar()
+        {
+            foreach (var item in ListaMarca)
+            {
+                Console.WriteLine(@$"
+                Nome da Marca : {item.NomeMarca}
+                Código : {item.Codigo}
+                Data de cadastro : {item.DataCadastro}");
+            }
+            return ListaMarca;
+        }
         public void Deletar()
         {
-            Console.WriteLine($"Qual marca voce deseja deletar? Digite seu codigo");
+            Console.WriteLine($"Qual marca você deseja deletar? Digite seu código");
             string nomeExcluir = Console.ReadLine().ToUpper();
 
-            int indice = ListaMarca.FindIndex(x => x.NomeMarca == nomeExcluir);
-            if (indice != -1)
-            {
-                ListaMarca.RemoveAt(indice);
-                indice++;
-                ListaMarca.RemoveAt(indice);
-            }
-            else
-            {
-
-            }
+            ListaMarca.FindIndex(x => x.NomeMarca == nomeExcluir);
         }
-        public void ProcurarMarcas(int codigo)
-        {
-            Marca marca = ListaMarca.Find((x => x.Codigo == codigo));
 
-            if (marca == null)
-            {
-                Console.WriteLine(@$"Essa marca nao existe...");
-            }
-            else
-            {
-
-            }
-        }
     }
 }

@@ -2,15 +2,18 @@ namespace products_project
 {
     public class Produto
     {
-        public int Codigo { get; private set; }
-        public string NomeProduto { get; private set; }
-        public float Preco { get; private set; }
-        public DateTime DataCadastro { get; private set; }
-        public Marca Marca { get; private set; }
-        public Usuario usuario { get; private set; }
-        public Usuario CadastradoPor { get; private set; }
+        public int Codigo { get; set; }
+        public string NomeProduto { get; set; }
+        public float Preco { get; set; }
+        public DateTime DataCadastro { get; set; }
+        public Marca Marca { get; set; }
+        public Usuario usuario { get; set; }
+        public Usuario CadastradoPor { get; set; }
         List<Produto> ListaDeProdutos = new List<Produto>();
         Usuario ObjetoUsuario = new Usuario();
+
+        public Produto()
+        { }
 
         public Produto(int codigo, string nomeProduto, float preco, Usuario cadastradoPor, DateTime dataCadastro)
         {
@@ -21,76 +24,75 @@ namespace products_project
             DataCadastro = dataCadastro;
         }
 
-        public string Cadastrar(string novoProduto)
+        List<Produto> listProduto = new List<Produto>();
+
+        Marca m = new Marca();
+        public void Cadastrar()
         {
-            Console.WriteLine(@$"
-            Vamos cadastrar seu produto!
-            Informe o codigo do produto:");
-            Codigo = int.Parse(Console.ReadLine());
+            Produto novoProduto = new Produto();
 
-            Console.WriteLine($"Qual o nome do produto?");
-            NomeProduto = Console.ReadLine();
+            Console.Write($"Informe o código do produto:");
+            novoProduto.Codigo = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Qual o preco do produto?");
-            Preco = float.Parse(Console.ReadLine());
+            if (novoProduto == null)
+            {
+                Console.Write($"Informe o nome do produto:");
+                novoProduto.NomeProduto = Console.ReadLine().ToUpper();
 
-            Console.WriteLine($"Qual o codigo da marca?");
-            int codigoMarca = int.Parse(Console.ReadLine());
+                Console.Write($"Informe o preco do produto:");
+                novoProduto.Preco = float.Parse(Console.ReadLine());
 
-            Marca.ProcurarMarcas(codigoMarca);
-            ObjetoUsuario.Nome = CadastradoPor.Nome;
+
+                novoProduto.Marca = m.Cadastrar();
+                DataCadastro = DateTime.Now;
+
+                listProduto.Add(novoProduto);
+            }
+
+            else
+            {
+                Console.WriteLine($"O produto já existe! *{novoProduto.NomeProduto}*");
+            }
+
+
+            Console.Write($"Informe o nome do produto:");
+            novoProduto.NomeProduto = Console.ReadLine().ToUpper();
+
+            Console.Write($"Informe o preço do produto:");
+            novoProduto.Preco = float.Parse(Console.ReadLine());
+
+
+            novoProduto.Marca = m.Cadastrar();
             DataCadastro = DateTime.Now;
 
-            ListaDeProdutos.Add(new Produto(Codigo, NomeProduto, Preco, CadastradoPor, DataCadastro));
-
-            return NomeProduto;
-
+            listProduto.Add(novoProduto);
         }
 
         public List<Produto> Listar()
         {
-            foreach (var produto in ListaDeProdutos)
+            foreach (var item in listProduto)
             {
                 Console.WriteLine(@$"
-                Codigo: {produto.Codigo}
-                Nome: {produto.NomeProduto}
-                Preco: {produto.Preco}
-                Marca: {produto.Marca}
-                Cadastrado por: {produto.Marca}
-                Data: {produto.DataCadastro}
-                ");
+                ╔═══════════════════════════════════════════════╗
+                ║Nome do produto : {item.NomeProduto}           ║  
+                ║Código do produto : {item.Codigo}              ║
+                ║Preço do produto : {item.Preco}                ║
+                ║Marca do produto (código) : {item.Marca.Codigo}║
+                ╚═══════════════════════════════════════════════╝");
 
             }
 
-            return ListaDeProdutos;
+            return listProduto;
         }
 
         public void Deletar()
         {
-            Console.WriteLine($"Qual produto voce deseja deletar? Digite o nome");
-            string nomeExcluir = Console.ReadLine().ToUpper();
+            Console.WriteLine($"Informe o nome do produto que deseja excluir:");
+            string produtoExcluir = Console.ReadLine().ToUpper();
 
-            int indice = ListaDeProdutos.FindIndex(x => x.NomeProduto == nomeExcluir);
-            if (indice != -1)
-            {
-                ListaDeProdutos.RemoveAt(indice);
-                indice++;
-                ListaDeProdutos.RemoveAt(indice);
-                indice++;
-                ListaDeProdutos.RemoveAt(indice);
-                indice++;
-                ListaDeProdutos.RemoveAt(indice);
-                indice++;
-                ListaDeProdutos.RemoveAt(indice);
-                indice++;
-                ListaDeProdutos.RemoveAt(indice);
-                indice++;
-                ListaDeProdutos.RemoveAt(indice);
-            }
-            else
-            {
+            Produto produtoBuscado = listProduto.Find(CadaUsuario => CadaUsuario.NomeProduto == produtoExcluir);
 
-            }
+            listProduto.Remove(produtoBuscado);
         }
     }
 }
