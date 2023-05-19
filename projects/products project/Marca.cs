@@ -29,7 +29,7 @@ namespace products_project
         public void Deletar()
         {
             Console.WriteLine($"Qual marca voce deseja deletar? Digite seu codigo");
-            string nomeExcluir = Console.ReadLine();
+            string nomeExcluir = Console.ReadLine().ToUpper();
 
             int indice = ListaMarca.FindIndex(x => x.NomeMarca == nomeExcluir);
             if (indice != -1)

@@ -3,7 +3,7 @@ namespace products_project
     public class Usuario
     {
         public int Codigo { get; private set; }
-        public string Nome { get;  set; }
+        public string Nome { get; set; }
         public string Email { get; private set; }
         public string Senha { get; private set; }
         public DateTime DataCadastro { get; private set; }
@@ -17,7 +17,7 @@ namespace products_project
             Email = email;
             Senha = senha;
         }
-        public string Cadastrar(string novoUsuario)
+        public void Cadastrar()
         {
             Usuario usuario = new Usuario();
 
@@ -32,8 +32,6 @@ namespace products_project
             string senha = Console.ReadLine();
 
             ListaDeUsuario.Add(new Usuario(Email, Senha, Nome));
-
-            return novoUsuario;
         }
         public void Deletar(int codigo, string nome, string email, string senha)
         {

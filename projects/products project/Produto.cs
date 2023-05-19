@@ -12,11 +12,13 @@ namespace products_project
         List<Produto> ListaDeProdutos = new List<Produto>();
         Usuario ObjetoUsuario = new Usuario();
 
-        public Produto(int codigo, string nomeProduto, float preco)
+        public Produto(int codigo, string nomeProduto, float preco, Usuario cadastradoPor, DateTime dataCadastro)
         {
             Codigo = codigo;
             NomeProduto = nomeProduto;
             Preco = preco;
+            CadastradoPor = cadastradoPor;
+            DataCadastro = dataCadastro;
         }
 
         public string Cadastrar(string novoProduto)
@@ -37,8 +39,9 @@ namespace products_project
 
             Marca.ProcurarMarcas(codigoMarca);
             ObjetoUsuario.Nome = CadastradoPor.Nome;
+            DataCadastro = DateTime.Now;
 
-            ListaDeProdutos.Add(new Produto(Codigo, NomeProduto, Preco));
+            ListaDeProdutos.Add(new Produto(Codigo, NomeProduto, Preco, CadastradoPor, DataCadastro));
 
             return NomeProduto;
 
@@ -52,16 +55,42 @@ namespace products_project
                 Codigo: {produto.Codigo}
                 Nome: {produto.NomeProduto}
                 Preco: {produto.Preco}
+                Marca: {produto.Marca}
+                Cadastrado por: {produto.Marca}
+                Data: {produto.DataCadastro}
                 ");
-                
+
             }
-            
+
             return ListaDeProdutos;
         }
 
         public void Deletar()
         {
+            Console.WriteLine($"Qual produto voce deseja deletar? Digite o nome");
+            string nomeExcluir = Console.ReadLine().ToUpper();
 
+            int indice = ListaDeProdutos.FindIndex(x => x.NomeProduto == nomeExcluir);
+            if (indice != -1)
+            {
+                ListaDeProdutos.RemoveAt(indice);
+                indice++;
+                ListaDeProdutos.RemoveAt(indice);
+                indice++;
+                ListaDeProdutos.RemoveAt(indice);
+                indice++;
+                ListaDeProdutos.RemoveAt(indice);
+                indice++;
+                ListaDeProdutos.RemoveAt(indice);
+                indice++;
+                ListaDeProdutos.RemoveAt(indice);
+                indice++;
+                ListaDeProdutos.RemoveAt(indice);
+            }
+            else
+            {
+
+            }
         }
     }
 }
