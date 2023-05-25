@@ -63,7 +63,7 @@ namespace console_MVC.model
         }
 
         // metodo para preparar a linha de csv
-        public string PrepararLinhasCSV(Produtos p)
+        public string PrepararLinhasCSV(Produto p)
         {
             return $"{p.Codigo}; {p.Nome}; {p.Preco}";
         }
@@ -71,7 +71,11 @@ namespace console_MVC.model
         // metodo para inserir um produto no arquivo csv
         public void Inserir(Produto p)
         {
+            // array que vai armazenar as linhas (cada "objeto")
+            string[] linhas = { PrepararLinhasCSV(p) };
 
+            // vai ate o arquivo e insere todas as linhas que contem nele 
+            File.AppendAllLines(PATH, linhas);
         }
     }
 }

@@ -19,5 +19,13 @@ namespace console_MVC.Controller
             // chamada do metodo de exibicao (View) recebendo como argumento a lista de produtos    
             produtoView.Listar(produtos);
         }
+
+        // metodo controlador para acessar o cadastro de produto
+        public void CadastrarProduto()
+        {
+            Produto novoProduto = produtoView.Cadastrar();
+
+            produto.Inserir(novoProduto);
+        }
     }
 }
