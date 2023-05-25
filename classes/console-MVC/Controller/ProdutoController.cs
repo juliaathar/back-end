@@ -16,7 +16,7 @@ namespace console_MVC.Controller
             // lista de produtos chamada pela model 
             List<Produto> produtos = produto.Ler();
 
-            // chamada do metodo de exibicao (View) recebendo como argumento a lista de produtos
+            // chamada do metodo de exibicao (View) recebendo como argumento a lista de produtos    
             produtoView.Listar(produtos);
         }
     }

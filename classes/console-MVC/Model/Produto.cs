@@ -58,6 +58,20 @@ namespace console_MVC.model
 
             return produtos;
 
+            // metodo para preparar a linha de csv
+
+        }
+
+        // metodo para preparar a linha de csv
+        public string PrepararLinhasCSV(Produtos p)
+        {
+            return $"{p.Codigo}; {p.Nome}; {p.Preco}";
+        }
+
+        // metodo para inserir um produto no arquivo csv
+        public void Inserir(Produto p)
+        {
+
         }
     }
 }
