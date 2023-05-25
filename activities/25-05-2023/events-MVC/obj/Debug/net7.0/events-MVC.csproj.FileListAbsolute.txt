@@ -1,0 +1,15 @@
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\events-MVC.csproj.AssemblyReference.cache
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\events-MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\events-MVC.AssemblyInfoInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\events-MVC.AssemblyInfo.cs
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\events-MVC.csproj.CoreCompileInputs.cache
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\bin\Debug\net7.0\events-MVC.exe
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\bin\Debug\net7.0\events-MVC.deps.json
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\bin\Debug\net7.0\events-MVC.runtimeconfig.json
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\bin\Debug\net7.0\events-MVC.dll
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\bin\Debug\net7.0\events-MVC.pdb
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\events-MVC.dll
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\refint\events-MVC.dll
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\events-MVC.pdb
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\events-MVC.genruntimeconfig.cache
+C:\Users\47447272809\Desktop\back-end\activities\25-05-2023\events-MVC\obj\Debug\net7.0\ref\events-MVC.dll
